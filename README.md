@@ -35,6 +35,39 @@
 
 ---
 
+<!-- The Blueprint Section -->
+<h2 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Blueprint.png" alt="Blueprint" width="30" /> 
+  &nbsp; The Blueprint
+</h2>
+
+<div align="center">
+  
+```mermaid
+graph TD
+    A[💡 Concept] -->|Architecture Design| B{⚙️ Core Logic}
+    B -->|PHP 8.5+ & Laravel| C[🧱 Backend Infrastructure]
+    B -->|Livewire & Alpine| D[✨ Interactive Frontend]
+    C -->|Queue Optimization| E[⚡ High Performance]
+    D -->|UX Polish| F[🎨 Engaging UI]
+    E --> G[🚀 Scalable Product]
+    F --> G
+    
+    style A fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#fff
+    style B fill:#1e293b,stroke:#a855f7,stroke-width:2px,color:#fff
+    style C fill:#1e293b,stroke:#10b981,stroke-width:2px,color:#fff
+    style D fill:#1e293b,stroke:#f43f5e,stroke-width:2px,color:#fff
+    style E fill:#1e293b,stroke:#f59e0b,stroke-width:2px,color:#fff
+    style F fill:#1e293b,stroke:#3b82f6,stroke-width:2px,color:#fff
+    style G fill:#0f172a,stroke:#fff,stroke-width:4px,color:#fff
+```
+
+</div>
+
+<br />
+
+---
+
 <!-- Ecosystem Section -->
 <h2 align="center">
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Satellite%20Antenna.png" alt="Satellite" width="30" /> 
@@ -114,18 +147,29 @@
 
 ---
 
-<!-- Stats Section -->
+<!-- Core Philosophy Section -->
 <h2 align="center">
-  Impact & Analytics
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Compass.png" alt="Compass" width="30" /> 
+  &nbsp; Core Philosophy
 </h2>
 
 <div align="center">
-  <a href="https://github.com/AlizHarb">
-    <img src="https://github-readme-stats.vercel.app/api?username=AlizHarb&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&hide=contribs" alt="AlizHarb's Stats" height="160" />
-  </a>
-  <a href="https://github.com/AlizHarb">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlizHarb&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8" alt="Top Languages" height="160" />
-  </a>
+<table border="0">
+  <tr>
+    <td width="33%" align="center">
+      <h3>🏛️ Architecture First</h3>
+      <p>Solid foundations enable infinite scale. I don't just write code; I design systems that endure.</p>
+    </td>
+    <td width="33%" align="center">
+      <h3>💎 User Obsessed</h3>
+      <p>Every interaction tells a story. I ensure that story is smooth, intuitive, and delightful.</p>
+    </td>
+    <td width="33%" align="center">
+      <h3>⚡ Performance</h3>
+      <p>Speed is the ultimate feature. From database queries to DOM updates, every millisecond counts.</p>
+    </td>
+  </tr>
+</table>
 </div>
 
 <br />
