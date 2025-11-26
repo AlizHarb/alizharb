@@ -17,16 +17,12 @@
       <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
     </a>
     &nbsp;
-    <a href="https://twitter.com/">
-      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-    </a>
-    &nbsp;
-    <a href="https://linkedin.com/in/">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    &nbsp;
-    <a href="mailto:your-email@example.com">
+    <a href="mailto:harbzali@gmail.com">
       <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    &nbsp;
+    <a href="#">
+      <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" title="alizharb#4796" />
     </a>
   </p>
   
@@ -35,43 +31,9 @@
 
 ---
 
-<!-- The Blueprint Section -->
-<h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Blueprint.png" alt="Blueprint" width="30" /> 
-  &nbsp; The Blueprint
-</h2>
-
-<div align="center">
-  
-```mermaid
-graph TD
-    A[💡 Concept] -->|Architecture Design| B{⚙️ Core Logic}
-    B -->|PHP 8.5+ & Laravel| C[🧱 Backend Infrastructure]
-    B -->|Livewire & Alpine| D[✨ Interactive Frontend]
-    C -->|Queue Optimization| E[⚡ High Performance]
-    D -->|UX Polish| F[🎨 Engaging UI]
-    E --> G[🚀 Scalable Product]
-    F --> G
-    
-    style A fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#fff
-    style B fill:#1e293b,stroke:#a855f7,stroke-width:2px,color:#fff
-    style C fill:#1e293b,stroke:#10b981,stroke-width:2px,color:#fff
-    style D fill:#1e293b,stroke:#f43f5e,stroke-width:2px,color:#fff
-    style E fill:#1e293b,stroke:#f59e0b,stroke-width:2px,color:#fff
-    style F fill:#1e293b,stroke:#3b82f6,stroke-width:2px,color:#fff
-    style G fill:#0f172a,stroke:#fff,stroke-width:4px,color:#fff
-```
-
-</div>
-
-<br />
-
----
-
 <!-- Ecosystem Section -->
 <h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Satellite%20Antenna.png" alt="Satellite" width="30" /> 
-  &nbsp; Open Source Ecosystem
+  📡 Open Source Ecosystem
 </h2>
 
 <p align="center">A collection of high-performance tools and libraries designed for modern developers.</p>
@@ -95,7 +57,7 @@ graph TD
       </a>
       <br /><br />
       <b>Advanced PHP Hook System.</b><br />
-      Async execution, sandboxing, and high-performance event management for PHP 8.5+.
+      Async execution, sandboxing, and high-performance event management for PHP.
       <br /><br />
       <img src="https://img.shields.io/github/stars/AlizHarb/hookx?style=flat-square&color=10b981" alt="Stars" />
     </td>
@@ -131,8 +93,7 @@ graph TD
 
 <!-- Tech Stack Section -->
 <h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="30" /> 
-  &nbsp; The Arsenal
+  💻 The Arsenal
 </h2>
 
 <div align="center">
@@ -149,8 +110,7 @@ graph TD
 
 <!-- Core Philosophy Section -->
 <h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Compass.png" alt="Compass" width="30" /> 
-  &nbsp; Core Philosophy
+  🧭 Core Philosophy
 </h2>
 
 <div align="center">
@@ -170,6 +130,38 @@ graph TD
     </td>
   </tr>
 </table>
+</div>
+
+<br />
+
+---
+
+<!-- The Blueprint Section -->
+<h2 align="center">
+  📐 The Blueprint
+</h2>
+
+<div align="center">
+  
+```mermaid
+graph TD
+    A[💡 Concept] -->|Architecture Design| B{⚙️ Core Logic}
+    B -->|PHP & Laravel| C[🧱 Backend Infrastructure]
+    B -->|Livewire & Alpine| D[✨ Interactive Frontend]
+    C -->|Queue Optimization| E[⚡ High Performance]
+    D -->|UX Polish| F[🎨 Engaging UI]
+    E --> G[🚀 Scalable Product]
+    F --> G
+    
+    style A fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#fff
+    style B fill:#1e293b,stroke:#a855f7,stroke-width:2px,color:#fff
+    style C fill:#1e293b,stroke:#10b981,stroke-width:2px,color:#fff
+    style D fill:#1e293b,stroke:#f43f5e,stroke-width:2px,color:#fff
+    style E fill:#1e293b,stroke:#f59e0b,stroke-width:2px,color:#fff
+    style F fill:#1e293b,stroke:#3b82f6,stroke-width:2px,color:#fff
+    style G fill:#0f172a,stroke:#fff,stroke-width:4px,color:#fff
+```
+
 </div>
 
 <br />
