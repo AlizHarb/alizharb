@@ -137,12 +137,11 @@
 ---
 
 <!-- The Blueprint Section -->
-<h2 align="center">
-  📐 The Blueprint
-</h2>
-
 <div align="center">
-  
+<details>
+  <summary><h3>📐 The Blueprint (Click to Expand)</h3></summary>
+  <br />
+
 ```mermaid
 graph TD
     A[💡 Concept] -->|Architecture Design| B{⚙️ Core Logic}
@@ -152,7 +151,7 @@ graph TD
     D -->|UX Polish| F[🎨 Engaging UI]
     E --> G[🚀 Scalable Product]
     F --> G
-    
+
     style A fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#fff
     style B fill:#1e293b,stroke:#a855f7,stroke-width:2px,color:#fff
     style C fill:#1e293b,stroke:#10b981,stroke-width:2px,color:#fff
@@ -162,6 +161,7 @@ graph TD
     style G fill:#0f172a,stroke:#fff,stroke-width:4px,color:#fff
 ```
 
+</details>
 </div>
 
 <br />
