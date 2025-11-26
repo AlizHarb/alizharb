@@ -32,9 +32,10 @@
 ---
 
 <!-- Ecosystem Section -->
-<h2 align="center">
-  📡 Open Source Ecosystem
-</h2>
+<div align="center">
+<details>
+  <summary><h3>📡 Open Source Ecosystem (Click to Expand)</h3></summary>
+  <br />
 
 <p align="center">A collection of high-performance tools and libraries designed for modern developers.</p>
 
@@ -86,15 +87,18 @@
   </tr>
 </table>
 </div>
+</details>
+</div>
 
 <br />
 
 ---
 
 <!-- Tech Stack Section -->
-<h2 align="center">
-  💻 The Arsenal
-</h2>
+<div align="center">
+<details>
+  <summary><h3>💻 The Arsenal (Click to Expand)</h3></summary>
+  <br />
 
 <div align="center">
 
@@ -103,15 +107,18 @@
 | <img src="https://skillicons.dev/icons?i=php,laravel,livewire,mysql,redis" perline="5" /> | <img src="https://skillicons.dev/icons?i=js,ts,tailwind,alpine,figma" perline="5" /> | <img src="https://skillicons.dev/icons?i=git,docker,linux,nginx,github" perline="5" /> |
 
 </div>
+</details>
+</div>
 
 <br />
 
 ---
 
 <!-- Core Philosophy Section -->
-<h2 align="center">
-  🧭 Core Philosophy
-</h2>
+<div align="center">
+<details>
+  <summary><h3>🧭 Core Philosophy (Click to Expand)</h3></summary>
+  <br />
 
 <div align="center">
 <table border="0">
@@ -130,6 +137,28 @@
     </td>
   </tr>
 </table>
+</div>
+</details>
+</div>
+
+<br />
+
+---
+
+<!-- GitHub Stats Section -->
+<div align="center">
+<details>
+  <summary><h3>📊 GitHub Analytics (Click to Expand)</h3></summary>
+  <br />
+  <a href="https://github.com/AlizHarb">
+    <img src="https://github-readme-stats.vercel.app/api?username=AlizHarb&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&hide=contribs" alt="AlizHarb's Stats" height="160" />
+  </a>
+  <a href="https://github.com/AlizHarb">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlizHarb&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8" alt="Top Languages" height="160" />
+  </a>
+  <br />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AlizHarb&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="GitHub Streak" />
+</details>
 </div>
 
 <br />
