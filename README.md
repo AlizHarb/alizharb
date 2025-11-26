@@ -151,10 +151,10 @@
   <summary><h3>📊 GitHub Analytics (Click to Expand)</h3></summary>
   <br />
   <a href="https://github.com/AlizHarb">
-    <img src="https://github-readme-stats.vercel.app/api?username=AlizHarb&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&hide=contribs" alt="AlizHarb's Stats" height="160" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=AlizHarb&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&hide=contribs" alt="AlizHarb's Stats" height="160" />
   </a>
   <a href="https://github.com/AlizHarb">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlizHarb&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8" alt="Top Languages" height="160" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AlizHarb&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8" alt="Top Languages" height="160" />
   </a>
   <br />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=AlizHarb&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="GitHub Streak" />
