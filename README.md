@@ -1,6 +1,6 @@
 <!-- Hero Section -->
 <div align="center">
-  <br />
+  <br /><br />
   <img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=700&size=48&duration=3000&pause=1000&color=38bdf8&center=true&vCenter=true&width=800&lines=Ali+Harb;Architecting+Reliability;Crafting+Digital+Experiences" alt="Typing SVG" />
   
   <h3 style="color: #94a3b8; font-family: 'Outfit', sans-serif; font-weight: 400; letter-spacing: 1px;">
