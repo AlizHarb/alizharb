@@ -1,119 +1,168 @@
-<!-- 🌍 HOLOGRAPHIC LANGUAGE PORTAL -->
+<!-- Compact Language Selector -->
 <div align="center">
   
-  <!-- Animated Holographic Header -->
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=0,2,6,12,20&height=200&section=header&text=🌐%20PORTAL%20DE%20IDIOMAS&fontSize=42&fontColor=fff&animation=blinking&fontAlignY=38&desc=Elige%20Tu%20Realidad&descSize=18&descAlignY=60" width="100%" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=2000&pause=500&color=38BDF8&center=true&vCenter=true&width=700&lines=English+%7C+العربية+%7C+Español+%7C+Français+%7C+Русский+%7C+Українська" alt="Languages" />
   
+  <p>
+    <a href="README.md"><img src="https://img.shields.io/badge/🇺🇸-EN-blue?style=flat-square" /></a>
+    <a href="README.ar.md"><img src="https://img.shields.io/badge/🇸🇦-AR-green?style=flat-square" /></a>
+    <a href="README.es.md"><img src="https://img.shields.io/badge/🇪🇸-ES-red?style=flat-square" /></a>
+    <a href="README.fr.md"><img src="https://img.shields.io/badge/🇫🇷-FR-purple?style=flat-square" /></a>
+    <a href="README.ru.md"><img src="https://img.shields.io/badge/🇷🇺-RU-orange?style=flat-square" /></a>
+    <a href="README.uk.md"><img src="https://img.shields.io/badge/🇺🇦-UK-yellow?style=flat-square" /></a>
+  </p>
+  
+</div>
+
+---
+
+<!-- Hero Section -->
+<div align="center">
+  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=700&size=42&duration=2500&pause=800&color=38bdf8&center=true&vCenter=true&width=600&lines=Ali+Harb;AlizHarb+%7C+HarbzAli;Ingeniero+Full+Stack" alt="Name" />
+  
+  <p align="center">
+    <em>Construyendo sistemas que <b>escalan</b> · Creando interfaces que <b>deleitan</b></em>
+  </p>
+
+  <!-- Social Links -->
+  <p>
+    <a href="https://github.com/AlizHarb"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+    <a href="https://www.reddit.com/user/harbzali/"><img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white" /></a>
+    <a href="mailto:harbzali@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+    <a href="#"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
+  </p>
+  
+</div>
+
+---
+
+<!-- Tech Stack -->
+<div align="center">
+  
+  ### 🛠️ Stack Tecnológico
+  
+  <img src="https://skillicons.dev/icons?i=php,laravel,js,vue,react,nodejs,mysql,postgres,redis,docker,git,vscode&perline=12" alt="Skills" />
+  
+  <details>
+  <summary><b>Ver Todas las Tecnologías</b></summary>
   <br />
   
-  <!-- 3D Rotating Globe Visualization -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
-  </picture>
+  **Backend:** PHP · Laravel · Node.js · Python  
+  **Frontend:** JavaScript · TypeScript · Vue.js · React · Livewire  
+  **Base de Datos:** MySQL · PostgreSQL · Redis · MongoDB  
+  **DevOps:** Docker · Git · GitHub Actions · CI/CD  
+  **Herramientas:** VS Code · Figma · Postman · Composer  
   
-  <br />
-  <br />
+  </details>
   
-  <!-- Interactive Language Matrix -->
+</div>
+
+---
+
+<!-- Achievements & Trophies -->
+<div align="center">
+  
+  ### 🏆 Logros
+  
   <table>
     <tr>
-      <td colspan="6" align="center">
-        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=2000&pause=500&color=38BDF8&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=80&lines=SELECT+YOUR+LANGUAGE+%7C+اختر+لغتك+%7C+Выберите+язык;Elige+tu+idioma+%7C+Choisissez+%7C+Виберіть+мову" alt="Multi-Language Typing" />
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/🎖️_Guerrero_del_Código-Nivel_42-FFD700?style=for-the-badge&labelColor=1a1a2e" />
+        <br />
+        <sub><b>Más de 1000 Commits</b></sub>
       </td>
-    </tr>
-    <tr>
-      <td align="center" width="16.66%">
-        <a href="README.md">
-          <img src="https://img.shields.io/badge/🇺🇸-English-4A90E2?style=for-the-badge&labelColor=0f172a&logoColor=white" alt="English" />
-          <br />
-          <img src="https://img.shields.io/badge/Live-00ff00?style=flat-square&labelColor=000000" alt="Live" />
-        </a>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/🌍_Maestro_Políglota-6_Idiomas-4A90E2?style=for-the-badge&labelColor=1a1a2e" />
+        <br />
+        <sub><b>Multilingüe</b></sub>
       </td>
-      <td align="center" width="16.66%">
-        <a href="README.ar.md">
-          <img src="https://img.shields.io/badge/🇸🇦-العربية-50C878?style=for-the-badge&labelColor=0f172a&logoColor=white" alt="Arabic" />
-          <br />
-          <img src="https://img.shields.io/badge/RTL-ff00ff?style=flat-square&labelColor=000000" alt="RTL" />
-        </a>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/⚡_Demonio_de_Velocidad-Optimizado-FF4444?style=for-the-badge&labelColor=1a1a2e" />
+        <br />
+        <sub><b>Rendimiento</b></sub>
       </td>
-      <td align="center" width="16.66%">
-        <a href="README.es.md">
-          <img src="https://img.shields.io/badge/🇪🇸-Español-FF6B6B?style=for-the-badge&labelColor=0f172a&logoColor=white" alt="Spanish" />
-          <br />
-          <img src="https://img.shields.io/badge/Active-00ffff?style=flat-square&labelColor=000000" alt="Active" />
-        </a>
-      </td>
-      <td align="center" width="16.66%">
-        <a href="README.fr.md">
-          <img src="https://img.shields.io/badge/🇫🇷-Français-A78BFA?style=for-the-badge&labelColor=0f172a&logoColor=white" alt="French" />
-          <br />
-          <img src="https://img.shields.io/badge/Live-ffff00?style=flat-square&labelColor=000000" alt="Live" />
-        </a>
-      </td>
-      <td align="center" width="16.66%">
-        <a href="README.ru.md">
-          <img src="https://img.shields.io/badge/🇷🇺-Русский-FF4444?style=for-the-badge&labelColor=0f172a&logoColor=white" alt="Russian" />
-          <br />
-          <img src="https://img.shields.io/badge/New-ff6600?style=flat-square&labelColor=000000" alt="New" />
-        </a>
-      </td>
-      <td align="center" width="16.66%">
-        <a href="README.uk.md">
-          <img src="https://img.shields.io/badge/🇺🇦-Українська-FFD700?style=for-the-badge&labelColor=0f172a&logoColor=white" alt="Ukrainian" />
-          <br />
-          <img src="https://img.shields.io/badge/New-0066ff?style=flat-square&labelColor=000000" alt="New" />
-        </a>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/🎨_Mago_del_Diseño-Creativo-A78BFA?style=for-the-badge&labelColor=1a1a2e" />
+        <br />
+        <sub><b>Maestro UI/UX</b></sub>
       </td>
     </tr>
   </table>
   
-  <br />
+</div>
+
+---
+
+<!-- Tech Proficiency -->
+<div align="center">
   
-  <!-- Holographic Divider -->
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+  ### 📊 Competencia Técnica
   
-  <br />
+  **Desarrollo Backend**  
+  ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+  ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+  ![Livewire](https://img.shields.io/badge/Livewire-4E56A6?style=for-the-badge&logo=livewire&logoColor=white)
+  
+  **Desarrollo Frontend**  
+  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+  ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
+  ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+  
+  **Bases de Datos y Herramientas**  
+  ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+  ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
   
 </div>
 
-<!-- Hero Section -->
+---
+
+<!-- Matrix Terminal -->
 <div align="center">
-  <br />
-  <img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=700&size=48&duration=2500&pause=800&color=38bdf8&center=true&vCenter=true&width=800&height=120&lines=Ali+Harb;AlizHarb+%7C+HarbzAli+%7C+AzH;Ingeniero+de+Software+Full+Stack;Arquitectando+Confiabilidad;Creando+Experiencias+Digitales" alt="Typing SVG" />
   
-  <h3 style="color: #94a3b8; font-family: 'Outfit', sans-serif; font-weight: 400; letter-spacing: 1px;">
-    INGENIERO DE SOFTWARE FULL STACK
-  </h3>
-
-  <p style="color: #cbd5e1; max-width: 600px; line-height: 1.6;">
-    Construyo sistemas que <b>escalan</b> e interfaces que <b>deleitan</b>. Especializado en el ecosistema PHP, conecto la lógica backend compleja con interacciones frontend fluidas.
-  </p>
-
-  <br />
-
-  <!-- Socials -->
-  <p>
-    <a href="https://github.com/AlizHarb">
-      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-    </a>
-    &nbsp;
-    <a href="https://www.reddit.com/user/harbzali/">
-      <img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white" alt="Reddit" />
-    </a>
-    &nbsp;
-    <a href="mailto:harbzali@gmail.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    &nbsp;
-    <a href="#">
-      <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" title="alizharb#4796" />
-    </a>
-  </p>
+  ### 💻 Consola del Desarrollador
   
-  <br />
-  <br />
+  ```bash
+  ╔════════════════════════════════════════════════════════╗
+  ║  $ whoami                                              ║
+  ║  > Ali Harb - Ingeniero de Software Full Stack        ║
+  ║                                                        ║
+  ║  $ cat skills.txt                                      ║
+  ║  > PHP 8.5 | Laravel 12 | Livewire 4 | Vue.js         ║
+  ║  > Construyendo sistemas escalables e IUs deliciosas  ║
+  ║                                                        ║
+  ║  $ status                                              ║
+  ║  > ✓ Todos los sistemas operativos                    ║
+  ║  > ✓ Listo para innovar                               ║
+  ╚════════════════════════════════════════════════════════╝
+  ```
+  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&duration=2000&pause=1000&color=00FF00&center=true&vCenter=true&width=500&lines=SISTEMA+INICIALIZADO;ACCESO+CONCEDIDO+✓;LISTO+PARA+CODIFICAR" alt="Terminal" />
+  
+</div>
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0f172a&height=100&section=footer" width="100%" />
+---
+
+<!-- Quote -->
+<div align="center">
+  
+  ### 💭 Filosofía
+  
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Quote" />
+  
+</div>
+
+---
+
+<!-- Footer -->
+<div align="center">
+  
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,6,12,20&height=120&section=footer&text=Gracias+por+Visitar&fontSize=24&fontColor=fff" width="100%" />
+  
+  ![Views](https://komarev.com/ghpvc/?username=AlizHarb&label=Vistas+del+Perfil&color=38bdf8&style=flat-square)
+  
+  **Hecho con ❤️ y ☕**
+  
 </div>
