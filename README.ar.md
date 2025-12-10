@@ -1,8 +1,8 @@
 <!-- 🌍 HOLOGRAPHIC LANGUAGE PORTAL -->
-<div align="center">
+<div align="center" dir="rtl">
   
   <!-- Animated Holographic Header -->
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=0,2,6,12,20&height=200&section=header&text=🌐%20LANGUAGE%20PORTAL&fontSize=42&fontColor=fff&animation=blinking&fontAlignY=38&desc=Choose%20Your%20Reality&descSize=18&descAlignY=60" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=0,2,6,12,20&height=200&section=header&text=🌐%20بوابة%20اللغات&fontSize=42&fontColor=fff&animation=blinking&fontAlignY=38&desc=اختر%20واقعك&descSize=18&descAlignY=60" width="100%" />
   
   <br />
   
@@ -28,14 +28,14 @@
         <a href="README.md">
           <img src="https://img.shields.io/badge/🇺🇸-English-4A90E2?style=for-the-badge&labelColor=0f172a&logoColor=white" alt="English" />
           <br />
-          <img src="https://img.shields.io/badge/Active-00ff00?style=flat-square&labelColor=000000" alt="Active" />
+          <img src="https://img.shields.io/badge/Live-00ff00?style=flat-square&labelColor=000000" alt="Live" />
         </a>
       </td>
       <td align="center" width="16.66%">
         <a href="README.ar.md">
           <img src="https://img.shields.io/badge/🇸🇦-العربية-50C878?style=for-the-badge&labelColor=0f172a&logoColor=white" alt="Arabic" />
           <br />
-          <img src="https://img.shields.io/badge/RTL-ff00ff?style=flat-square&labelColor=000000" alt="RTL" />
+          <img src="https://img.shields.io/badge/Active-ff00ff?style=flat-square&labelColor=000000" alt="Active" />
         </a>
       </td>
       <td align="center" width="16.66%">
@@ -79,16 +79,16 @@
 </div>
 
 <!-- Hero Section -->
-<div align="center">
+<div align="center" dir="rtl">
   <br />
-  <img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=700&size=48&duration=2500&pause=800&color=38bdf8&center=true&vCenter=true&width=800&height=120&lines=Ali+Harb;AlizHarb+%7C+HarbzAli+%7C+AzH;Full+Stack+Software+Engineer;Architecting+Reliability;Crafting+Digital+Experiences" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Cairo&weight=700&size=48&duration=2500&pause=800&color=38bdf8&center=true&vCenter=true&width=800&height=120&lines=علي+حرب;AlizHarb+%7C+HarbzAli+%7C+AzH;مهندس+برمجيات+متكامل;بناء+أنظمة+موثوقة;صناعة+تجارب+رقمية+مميزة" alt="Typing SVG" />
   
-  <h3 style="color: #94a3b8; font-family: 'Outfit', sans-serif; font-weight: 400; letter-spacing: 1px;">
-    FULL STACK SOFTWARE ENGINEER
+  <h3 style="color: #94a3b8; font-family: 'Cairo', sans-serif; font-weight: 400; letter-spacing: 1px;">
+    مهندس برمجيات متكامل
   </h3>
 
-  <p style="color: #cbd5e1; max-width: 600px; line-height: 1.6;">
-    I build systems that <b>scale</b> and interfaces that <b>delight</b>. Specializing in the PHP ecosystem, I bridge the gap between complex backend logic and fluid frontend interactions.
+  <p style="color: #cbd5e1; max-width: 600px; line-height: 1.8; font-family: 'Cairo', sans-serif;">
+    أقوم ببناء أنظمة <b>قابلة للتوسع</b> وواجهات <b>مبهرة</b>. متخصص في نظام PHP البيئي، أربط بين المنطق الخلفي المعقد والتفاعلات الأمامية السلسة.
   </p>
 
   <br />

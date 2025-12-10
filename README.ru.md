@@ -2,7 +2,7 @@
 <div align="center">
   
   <!-- Animated Holographic Header -->
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=0,2,6,12,20&height=200&section=header&text=🌐%20LANGUAGE%20PORTAL&fontSize=42&fontColor=fff&animation=blinking&fontAlignY=38&desc=Choose%20Your%20Reality&descSize=18&descAlignY=60" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=0,2,6,12,20&height=200&section=header&text=🌐%20ЯЗЫКОВОЙ%20ПОРТАЛ&fontSize=42&fontColor=fff&animation=blinking&fontAlignY=38&desc=Выберите%20Свою%20Реальность&descSize=18&descAlignY=60" width="100%" />
   
   <br />
   
@@ -28,7 +28,7 @@
         <a href="README.md">
           <img src="https://img.shields.io/badge/🇺🇸-English-4A90E2?style=for-the-badge&labelColor=0f172a&logoColor=white" alt="English" />
           <br />
-          <img src="https://img.shields.io/badge/Active-00ff00?style=flat-square&labelColor=000000" alt="Active" />
+          <img src="https://img.shields.io/badge/Live-00ff00?style=flat-square&labelColor=000000" alt="Live" />
         </a>
       </td>
       <td align="center" width="16.66%">
@@ -56,14 +56,14 @@
         <a href="README.ru.md">
           <img src="https://img.shields.io/badge/🇷🇺-Русский-FF4444?style=for-the-badge&labelColor=0f172a&logoColor=white" alt="Russian" />
           <br />
-          <img src="https://img.shields.io/badge/New-ff6600?style=flat-square&labelColor=000000" alt="New" />
+          <img src="https://img.shields.io/badge/Active-ff6600?style=flat-square&labelColor=000000" alt="Active" />
         </a>
       </td>
       <td align="center" width="16.66%">
         <a href="README.uk.md">
           <img src="https://img.shields.io/badge/🇺🇦-Українська-FFD700?style=for-the-badge&labelColor=0f172a&logoColor=white" alt="Ukrainian" />
           <br />
-          <img src="https://img.shields.io/badge/New-0066ff?style=flat-square&labelColor=000000" alt="New" />
+          <img src="https://img.shields.io/badge/Live-0066ff?style=flat-square&labelColor=000000" alt="Live" />
         </a>
       </td>
     </tr>
@@ -81,14 +81,14 @@
 <!-- Hero Section -->
 <div align="center">
   <br />
-  <img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=700&size=48&duration=2500&pause=800&color=38bdf8&center=true&vCenter=true&width=800&height=120&lines=Ali+Harb;AlizHarb+%7C+HarbzAli+%7C+AzH;Full+Stack+Software+Engineer;Architecting+Reliability;Crafting+Digital+Experiences" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto&weight=700&size=48&duration=2500&pause=800&color=38bdf8&center=true&vCenter=true&width=800&height=120&lines=Али+Харб;AlizHarb+%7C+HarbzAli+%7C+AzH;Полный+Стек+Инженер;Архитектура+Надежности;Создание+Цифровых+Впечатлений" alt="Typing SVG" />
   
-  <h3 style="color: #94a3b8; font-family: 'Outfit', sans-serif; font-weight: 400; letter-spacing: 1px;">
-    FULL STACK SOFTWARE ENGINEER
+  <h3 style="color: #94a3b8; font-family: 'Roboto', sans-serif; font-weight: 400; letter-spacing: 1px;">
+    ИНЖЕНЕР-ПРОГРАММИСТ ПОЛНОГО СТЕКА
   </h3>
 
   <p style="color: #cbd5e1; max-width: 600px; line-height: 1.6;">
-    I build systems that <b>scale</b> and interfaces that <b>delight</b>. Specializing in the PHP ecosystem, I bridge the gap between complex backend logic and fluid frontend interactions.
+    Я создаю системы, которые <b>масштабируются</b>, и интерфейсы, которые <b>восхищают</b>. Специализируюсь на экосистеме PHP, соединяя сложную серверную логику с плавными фронтенд-взаимодействиями.
   </p>
 
   <br />
