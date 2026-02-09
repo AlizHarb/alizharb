@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AlizHarb | Full Stack Software Engineer</title>
+    <meta
+      name="description"
+      content="Premium Portfolio of AlizHarb. Architecting high-performance web solutions."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://alizharb.github.io/" />
+    <meta
+      property="og:title"
+      content="AlizHarb | Full Stack Software Engineer"
+    />
+    <meta
+      property="og:description"
+      content="Portfolio of AlizHarb. Architecting high-performance web solutions using PHP, Node.js, Python, and modern JS frameworks."
+    />
+    <meta
+      property="og:image"
+      content="https://alizharb.github.io/images/og-image.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://alizharb.github.io/" />
+    <meta
+      property="twitter:title"
+      content="AlizHarb | Full Stack Software Engineer"
+    />
+    <meta
+      property="twitter:description"
+      content="Premium Portfolio of AlizHarb. Architecting high-performance web solutions using PHP, Node.js, Python, and modern JS frameworks."
+    />
+    <meta
+      property="twitter:image"
+      content="https://alizharb.github.io/images/og-image.png"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Outfit:wght@300;400;500;700&family=Space+Grotesk:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  </head>
+  <body>
+    <!-- Glitch Overlay -->
+    <div id="glitch-overlay" class="glitch-overlay hidden" aria-hidden="true">
+        <div class="glitch-text" data-text="404 ERROR">404 ERROR</div>
+        <div class="glitch-sub">SYSTEM FAILURE</div>
+    </div>
+
+    <!-- Premium Cyber Loader -->
+    <div id="loader" class="cyber-loader">
+      <div class="loader-content">
+        <div class="loader-logo-wrapper">
+          <span class="loader-logo-text">AlizHarb</span><span class="loader-dot">.</span>
+        </div>
+        <div class="loader-bar-wrapper">
+            <div class="loader-bar-fill"></div>
+        </div>
+        <div class="loader-status">
+            <span class="status-text">INITIALIZING SYSTEM...</span>
+            <span class="status-percent">0%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-outline" aria-hidden="true"></div>
+    <div class="noise-overlay" aria-hidden="true"></div>
+
+    <div class="scroll-progress-container">
+      <div class="scroll-progress-bar"></div>
+    </div>
+
+    <!-- JSON-LD SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "AlizHarb",
+        "jobTitle": "Full Stack Software Engineer",
+        "url": "https://alizharb.github.io",
+        "sameAs": [
+          "https://github.com/alizharb"
+        ],
+        "description": "Full Stack Software Engineer specializing in scalable Laravel backends and Vue.js frontends.",
+        "skills": ["Laravel", "Vue.js", "Tailwind CSS", "PHP", "API Development", "System Architecture", "Livewire", "MySQL"]
+      }
+    </script>
+
+    <nav class="navbar">
+      <a href="#" class="logo">
+        <span class="logo-text">AlizHarb</span><span class="logo-dot">.</span>
+      </a>
+      <!-- Desktop Nav -->
+      <nav class="nav-links">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#work" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <main>
+      <section id="home" class="hero">
+        <canvas id="hero-canvas" aria-hidden="true"></canvas>
+        <div class="container hero-grid">
+          <div class="hero-content fade-in-up">
+            <!-- Availability Status -->
+            <div class="status-badge fade-in-up">
+              <span class="status-dot"></span>
+              Available for new projects
+            </div>
+
+            <h1 class="hero-title">
+              Building <br />
+              <span class="gradient-text">Digital Perfection</span>
+            </h1>
+            <p class="hero-subtitle">
+              Full Stack Software Engineer. Obsessed with scalable performance
+              and pixel-perfect aesthetics.
+            </p>
+            <div class="hero-actions">
+              <a href="#work" class="btn btn-primary"
+                ><i class="fas fa-code"></i> View Work</a
+              >
+              <a href="#contact" class="btn btn-secondary"
+                ><i class="fas fa-paper-plane"></i> Contact Me</a
+              >
+            </div>
+          </div>
+
+          <!-- Terminal -->
+          <div class="terminal-wrapper fade-in-up">
+            <div class="terminal-window">
+              <div class="terminal-header">
+                <div class="dot red"></div>
+                <div class="dot yellow"></div>
+                <div class="dot green"></div>
+              </div>
+              <div class="terminal-body" id="terminal-body">
+                <div class="output-line">Welcome to AlizHarb Terminal</div>
+                <div class="output-line">
+                  Type <span class="output-success">'help'</span> to interact.
+                </div>
+                <div class="command-line">
+                  <span class="prompt">guest@alizharb:~$</span>
+                  <input
+                    type="text"
+                    class="command-input"
+                    id="terminal-input"
+                    autocomplete="off"
+                    spellcheck="false"
+                    autofocus
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="terminal-hint">
+              <i class="fas fa-keyboard"></i> Try typing 'help'...
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section id="about" class="section">
+        <div class="container about-section-container">
+          <!-- Horizontal Scroll Container -->
+           <div class="about-horizontal-scroll" id="about-scroll">
+
+            <!-- Intro Text Card -->
+            <div class="about-intro-card fade-in-up">
+              <h2 class="section-title">
+                Architecting <span class="gradient-text">The Future</span>
+              </h2>
+              <p style="color: var(--text-muted); font-size: 1.1rem; line-height: 1.7;">
+                I don't just write code; I engineer <strong>digital ecosystems</strong>.
+                As a polyglot <strong>Full Stack Engineer</strong>, I architect robust backends
+                (PHP, Node.js, Python) and craft immersive frontends using modern frameworks
+                (Vue, React, Svelte). My focus is on scalability, performance, and
+                pixel-perfect user experiences across the entire stack.
+              </p>
+            </div>
+
+            <!-- Features Wrapper -->
+            <div class="about-features-wrapper">
+              <div class="feature-item fade-in-up" style="transition-delay: 100ms;">
+                  <i class="fas fa-server stat-bg-icon" aria-hidden="true"></i>
+                  <h4 class="feature-title">Backend Architecture</h4>
+                <p class="feature-desc">
+                  Scalable systems in Laravel, Node.js, or Django designed for high-throughput.
+                </p>
+              </div>
+
+              <div class="feature-item fade-in-up" style="transition-delay: 200ms;">
+                  <i class="fas fa-cubes stat-bg-icon" aria-hidden="true"></i>
+                  <h4 class="feature-title">Modular Systems</h4>
+                  <p class="feature-desc">
+                    Decoupled, maintainable codebases using DDD principles.
+                  </p>
+              </div>
+
+              <div class="feature-item fade-in-up" style="transition-delay: 300ms;">
+                  <i class="fas fa-bolt stat-bg-icon" aria-hidden="true"></i>
+                  <h4 class="feature-title">Performance First</h4>
+                  <p class="feature-desc">
+                    Optimized queries and caching strategies for sub-100ms
+                    response.
+                  </p>
+              </div>
+            </div>
+
+            <!-- Stats Group -->
+            <div class="stats-group fade-in-up" style="transition-delay: 400ms;">
+              <div class="stat-card">
+                <i class="fas fa-code-branch stat-bg-icon" aria-hidden="true"></i>
+                <span class="stat-number" id="stat-repos">20+</span>
+                <span class="stat-label">Repositories</span>
+              </div>
+              <div class="stat-card">
+                <i class="fas fa-star stat-bg-icon" aria-hidden="true"></i>
+                <span class="stat-number" id="stat-stars">500+</span>
+                <span class="stat-label">Total Stars</span>
+              </div>
+              <div class="stat-card">
+                <i class="fas fa-history stat-bg-icon" aria-hidden="true"></i>
+                <span class="stat-number">5+</span>
+                <span class="stat-label">Years Exp</span>
+              </div>
+              <div class="stat-card">
+                <i class="fas fa-server stat-bg-icon" aria-hidden="true"></i>
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Uptime</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="container">
+          <h2 class="section-title large text-center">
+            Selected <span class="gradient-text">Projects</span>
+          </h2>
+
+          <div class="projects-scroller">
+            <article class="project-card fade-in-up">
+              <i class="fas fa-folder-open stat-bg-icon"></i>
+              <div class="card-header">
+                <!-- Icon removed, using hero icon now -->
+                <h3 class="project-title" style="margin: 0">
+                  Filament Activity Logs
+                </h3>
+                <div class="external-links">
+                  <a
+                    href="https://github.com/alizharb"
+                    target="_blank"
+                    aria-label="View on GitHub"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+              <p class="project-desc">
+                A comprehensive activity logger for admin panels. Zero
+                configuration required.
+              </p>
+              <div class="project-stats">
+                <span class="stat-item"
+                  ><i class="fas fa-star text-gold"></i> 120</span
+                >
+                <span class="tech-pill">PHP / JS</span>
+              </div>
+            </article>
+
+            <article class="project-card fade-in-up">
+              <i class="fas fa-network-wired stat-bg-icon"></i>
+              <div class="card-header">
+                <!-- <i class="fas fa-network-wired folder-icon"></i> -->
+                <h3 class="project-title" style="margin: 0">Laravel Modular</h3>
+                <div class="external-links">
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+              <p class="project-desc">
+                Enterprise-grade modular architecture. Scale your monolith
+                intelligently across any stack.
+              </p>
+              <div class="project-stats">
+                <span class="stat-item"
+                  ><i class="fas fa-star text-gold"></i> 85</span
+                >
+                <span class="tech-pill">Arch</span>
+              </div>
+            </article>
+
+            <article class="project-card fade-in-up">
+              <i class="fas fa-layer-group stat-bg-icon"></i>
+              <div class="card-header">
+                <!-- <i class="fas fa-layer-group folder-icon"></i> -->
+                <h3 class="project-title" style="margin: 0">Laravel Themer</h3>
+                <div class="external-links">
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+              <p class="project-desc">
+                Dynamic runtime theming support. Switch themes instantly.
+              </p>
+              <div class="project-stats">
+                <span class="stat-item"
+                  ><i class="fas fa-star text-gold"></i> 200</span
+                >
+                <span class="tech-pill">UI/UX</span>
+              </div>
+            </article>
+
+            <article class="project-card fade-in-up">
+              <i class="fas fa-plug stat-bg-icon"></i>
+              <div class="card-header">
+                <!-- <i class="fas fa-plug folder-icon"></i> -->
+                <h3 class="project-title" style="margin: 0">React/Vue Hooks</h3>
+                <div class="external-links">
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+              <p class="project-desc">
+                Custom composables and hooks for managing complex state in modern frontends.
+              </p>
+              <div class="project-stats">
+                <span class="stat-item"
+                  ><i class="fas fa-star text-gold"></i> 95</span
+                >
+                <span class="tech-pill">React/Vue</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Grid -->
+      <section id="services" class="section">
+        <div class="container">
+          <h2 class="section-title text-center">
+            What I <span class="gradient-text">Do</span>
+          </h2>
+          <div class="services-grid">
+            <div class="service-card glass-panel fade-in-up">
+              <i class="fas fa-code service-icon"></i>
+              <h3 class="service-title">API Development</h3>
+              <p class="service-desc">
+                RESTful & GraphQL APIs built for scale and security.
+              </p>
+            </div>
+            <div class="service-card glass-panel fade-in-up">
+              <i class="fas fa-rocket service-icon"></i>
+              <h3 class="service-title">SaaS MVP</h3>
+              <p class="service-desc">
+                Rapid prototyping and launch of scalable web applications.
+              </p>
+            </div>
+            <div class="service-card glass-panel fade-in-up">
+              <i class="fas fa-tachometer-alt service-icon"></i>
+              <h3 class="service-title">Performance Tuning</h3>
+              <p class="service-desc">
+                Database optimization and server-side caching strategies.
+              </p>
+            </div>
+            <div class="service-card glass-panel fade-in-up">
+              <i class="fas fa-shield-alt service-icon"></i>
+              <h3 class="service-title">Security Audits</h3>
+              <p class="service-desc">
+                Vulnerability assessment and hardening of Web applications (OWASP).
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section id="testimonials" class="section">
+        <div class="container">
+          <h2 class="section-title text-center">
+            Client <span class="gradient-text">Feedback</span>
+          </h2>
+          <div class="testimonials-grid" id="testimonials-container">
+            <div class="testimonial-card glass-panel fade-in-up" style="animation-delay: 0ms;">
+              <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+              <p class="testimonial-text">"AlizHarb transformed our legacy system into a modern, high-performance platform. Truly a master of his craft."</p>
+              <div class="testimonial-author">
+                  <span class="author-name">Sarah Jenkins</span>
+              </div>
+            </div>
+            <div class="testimonial-card glass-panel fade-in-up" style="animation-delay: 100ms;">
+              <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+              <p class="testimonial-text">"Delivered our MVP ahead of schedule and under budget. The code quality is exceptional and scalable."</p>
+              <div class="testimonial-author">
+                  <span class="author-name">Mark Sterling</span>
+              </div>
+            </div>
+            <div class="testimonial-card glass-panel fade-in-up" style="animation-delay: 200ms;">
+              <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+              <p class="testimonial-text">"The API architecture designed by AlizHarb handled our 10x traffic spike without a single hiccup."</p>
+              <div class="testimonial-author">
+                  <span class="author-name">Elena Rodriguez</span>
+              </div>
+            </div>
+            <div class="testimonial-card glass-panel fade-in-up" style="animation-delay: 300ms;">
+              <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+              <p class="testimonial-text">"Incredible attention to detail. The UI micro-interactions added a layer of polish we didn't know we needed."</p>
+              <div class="testimonial-author">
+                  <span class="author-name">David Chen</span>
+              </div>
+            </div>
+            <div class="testimonial-card glass-panel fade-in-up" style="animation-delay: 400ms;">
+              <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+              <p class="testimonial-text">"A rare combination of technical deep-dive capability and clear, business-focused communication."</p>
+              <div class="testimonial-author">
+                  <span class="author-name">Amanda Clarke</span>
+              </div>
+            </div>
+            <div class="testimonial-card glass-panel fade-in-up" style="animation-delay: 500ms;">
+              <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+              <p class="testimonial-text">"Security audit was thorough and actionable. We feel much safer knowing AlizHarb reviewed our codebase."</p>
+              <div class="testimonial-author">
+                  <span class="author-name">James Thorne</span>
+              </div>
+            </div>
+            <div class="testimonial-card glass-panel fade-in-up" style="animation-delay: 600ms;">
+              <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+              <p class="testimonial-text">"Refactored our entire frontend to Vue.js, improving load times by 60%. Highly recommended."</p>
+              <div class="testimonial-author">
+                  <span class="author-name">Robert Vance</span>
+              </div>
+            </div>
+            <div class="testimonial-card glass-panel fade-in-up" style="animation-delay: 700ms;">
+              <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+              <p class="testimonial-text">"Simply the best backend engineer I've worked with. Clean, documented, and robust PHP code."</p>
+              <div class="testimonial-author">
+                  <span class="author-name">Thomas Anderson</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Form -->
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="contact-grid">
+            <!-- Left Column: Info & Connect -->
+            <div class="contact-info fade-in-up">
+              <h2 class="section-title large">
+                Let's <span class="gradient-text">Collaborate</span>
+              </h2>
+              <p class="contact-text">
+                I'm currently opening for new opportunities. Whether you have a
+                question, a project usage proposal, or just want to say hi, I'll
+                try my best to get back to you!
+              </p>
+
+              <div class="contact-details">
+                <div class="contact-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Remote / Worldwide</span>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-clock"></i>
+                  <span>Available for Freelance & Full-time</span>
+                </div>
+              </div>
+
+              <div class="contact-buttons left-align" style="margin-top: 2rem">
+                <p class="contact-label">Connect Directly:</p>
+                <div class="btn-group">
+                  <a href="mailto:harbzali@gmail.com" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i> Email Me
+                  </a>
+                  <button id="discord-btn" class="btn btn-secondary">
+                    <i class="fab fa-discord"></i> Discord
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Column: Form -->
+            <div class="contact-form-wrapper fade-in-up">
+              <form
+                id="contact-form"
+                action="https://formspree.io/f/mlgwdakz"
+                method="POST"
+                class="contact-form glass-panel"
+              >
+                <div class="form-group">
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-input"
+                    required
+                    placeholder="John Doe"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-input"
+                    required
+                    placeholder="john@example.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="form-input"
+                    rows="5"
+                    required
+                    placeholder="Tell me about your project..."
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary submit-btn">
+                  <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+                <p
+                  class="form-status"
+                  style="
+                    display: none;
+                    text-align: center;
+                    margin-top: 1rem;
+                    color: var(--primary);
+                  "
+                >
+                  Message sent successfully!
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      </section>
+
+      <!-- Footer Tech Stack (Hero Icons) -->
+      <div class="footer-tech-stack fade-in-up">
+        <!-- Render icons directly with FA classes -->
+        <div class="tech-icon-wrapper" data-tooltip="Laravel">
+            <i class="fab fa-laravel"></i>
+        </div>
+        <div class="tech-icon-wrapper" data-tooltip="Livewire">
+            <i class="fas fa-bolt"></i>
+        </div>
+        <div class="tech-icon-wrapper" data-tooltip="Vue.js">
+            <i class="fab fa-vuejs"></i>
+        </div>
+        <div class="tech-icon-wrapper" data-tooltip="React">
+            <i class="fab fa-react"></i>
+        </div>
+        <div class="tech-icon-wrapper" data-tooltip="Node.js">
+            <i class="fab fa-node-js"></i>
+        </div>
+        <div class="tech-icon-wrapper" data-tooltip="Python">
+            <i class="fab fa-python"></i>
+        </div>
+        <div class="tech-icon-wrapper" data-tooltip="PHP">
+            <i class="fab fa-php"></i>
+        </div>
+        <div class="tech-icon-wrapper" data-tooltip="Tailwind">
+            <i class="fab fa-css3-alt"></i> <!-- closest standard FA match -->
+        </div>
+        <div class="tech-icon-wrapper" data-tooltip="AWS Cloud">
+            <i class="fab fa-aws"></i>
+        </div>
+        <div class="tech-icon-wrapper" data-tooltip="Docker">
+            <i class="fab fa-docker"></i>
+        </div>
+        <div class="tech-icon-wrapper" data-tooltip="Redis">
+            <i class="fas fa-server"></i>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#" class="logo footer-logo"
+              >AlizHarb<span class="dot">.</span></a
+            >
+            <p class="footer-desc">
+              Architecting robust, scalable, and high-performance digital
+              ecosystems for the modern web.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Navigate</h4>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#work">Projects</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Connect</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="https://github.com/alizharb" target="_blank">GitHub</a>
+              </li>
+              <li><a href="#" target="_blank">LinkedIn</a></li>
+              <li><a href="#" target="_blank">Twitter</a></li>
+              <li><a href="mailto:harbzali@gmail.com">Email</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Services</h4>
+            <ul class="footer-links">
+              <li><a href="#services">API Development</a></li>
+              <li><a href="#services">SaaS Architecture</a></li>
+              <li><a href="#services">Performance Audit</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 AlizHarb. Built with
+            <i class="fas fa-heart text-primary"></i> & Clean Code principles.
+          </p>
+          <div class="footer-legal">
+            <a href="#">Privacy</a>
+            <span class="separator">•</span>
+            <a href="#">Terms</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Dock (Kept inside footer for structure, but fixed pos) -->
+      <nav class="mobile-dock">
+        <a href="#home" class="dock-item active">
+          <i class="fas fa-home"></i>
+          <span>Home</span>
+        </a>
+        <a href="#about" class="dock-item">
+          <i class="fas fa-user"></i>
+          <span>About</span>
+        </a>
+        <a href="#services" class="dock-item">
+          <i class="fas fa-layer-group"></i>
+          <span>Services</span>
+        </a>
+        <a href="#work" class="dock-item">
+          <i class="fas fa-code"></i>
+          <span>Work</span>
+        </a>
+        <a href="#contact" class="dock-item">
+          <i class="fas fa-paper-plane"></i>
+          <span>Contact</span>
+        </a>
+      </nav>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
